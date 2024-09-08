@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopensource_docs=self.webpackChunkopensource_docs||[]).push([[4432],{8658:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"nestjs-logger"}')}}]);
