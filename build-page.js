@@ -15,8 +15,8 @@ const pages = [
     'nestjs-command',
     'nestjs-seeder',
     'nestjs-api-gateway',
+    'nestjs-eslint-config',
 ];
-
 
 function initPage(){
     for(let page of pages){
