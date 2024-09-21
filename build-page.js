@@ -13,7 +13,8 @@ const pages = [
     'nestjs-mailer',
     'nestjs-exception',
     'nestjs-command',
-    'nestjs-seeder'
+    'nestjs-seeder',
+    'nestjs-api-gateway',
 ];
 
 

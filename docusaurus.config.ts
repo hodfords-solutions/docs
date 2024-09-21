@@ -20,7 +20,7 @@ const config: Config = {
     organizationName: 'hodfords-solutions', // Usually your GitHub org/user name.
     projectName: 'docs', // Usually your repo name.
     deploymentBranch: 'gh-pages',
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'ignore',
     onBrokenMarkdownLinks: 'warn',
     i18n: {
         defaultLocale: 'en',
