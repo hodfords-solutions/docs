@@ -1,4 +1,6 @@
----\ndisplayed_sidebar: docs\n---
+---
+displayed_sidebar: docs
+---
 <p align="center">
   <a href="http://opensource.hodfords.uk" target="blank"><img src="https://opensource.hodfords.uk/img/logo.svg" width="320" alt="Nest Logo" /></a>
 </p>
