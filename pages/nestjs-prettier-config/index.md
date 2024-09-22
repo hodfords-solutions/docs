@@ -2,6 +2,10 @@
 displayed_sidebar: docs
 title: "@hodfords/nestjs-prettier-config"
 ---
+<p align="center">
+  <a href="http://opensource.hodfords.uk" target="blank"><img src="https://opensource.hodfords.uk/img/logo.svg" width="320" alt="Nest Logo" /></a>
+</p>
+
 # PRETTIER CONFIGURATION FOR NESTJS PROJECTS
 Prettier default configuration for Nestjs project. It will help you to maintain the code quality of your project.
 
