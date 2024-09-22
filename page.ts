@@ -15,4 +15,5 @@ export const pages = [
     'nestjs-seeder',
     'nestjs-api-gateway',
     'nestjs-eslint-config',
+    'nestjs-prettier-config',
 ];
