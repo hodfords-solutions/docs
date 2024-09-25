@@ -16,4 +16,5 @@ export const pages = [
     'nestjs-api-gateway',
     'nestjs-eslint-config',
     'nestjs-prettier-config',
+    'nestjs-testing',
 ];
