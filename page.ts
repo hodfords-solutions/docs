@@ -1,6 +1,8 @@
 export const pages = [
+    'nestjs-eslint-config',
+    'nestjs-prettier-config',
     'nestjs-cls-translation',
-    'nestjs-logger',
+    'nestjs-validation',
     'nestjs-base-decorator',
     'nestjs-transaction',
     'typeorm-helper',
@@ -14,7 +16,5 @@ export const pages = [
     'nestjs-command',
     'nestjs-seeder',
     'nestjs-api-gateway',
-    'nestjs-eslint-config',
-    'nestjs-prettier-config',
     'nestjs-testing',
 ];

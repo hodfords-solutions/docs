@@ -1,7 +1,9 @@
 const fs = require("fs");
 const pages = [
+    'nestjs-eslint-config',
+    'nestjs-prettier-config',
     'nestjs-cls-translation',
-    'nestjs-logger',
+    'nestjs-validation',
     'nestjs-base-decorator',
     'nestjs-transaction',
     'typeorm-helper',
@@ -15,8 +17,6 @@ const pages = [
     'nestjs-command',
     'nestjs-seeder',
     'nestjs-api-gateway',
-    'nestjs-eslint-config',
-    'nestjs-prettier-config',
     'nestjs-testing',
 ];
 
