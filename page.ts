@@ -1,20 +1,2 @@
-export const pages = [
-    'nestjs-eslint-config',
-    'nestjs-prettier-config',
-    'nestjs-cls-translation',
-    'nestjs-validation',
-    'nestjs-base-decorator',
-    'nestjs-transaction',
-    'typeorm-helper',
-    'nestjs-oidc',
-    'nestjs-storage',
-    'nestjs-grpc-helper',
-    'nestjs-response',
-    'nestjs-swagger-helper',
-    'nestjs-mailer',
-    'nestjs-exception',
-    'nestjs-command',
-    'nestjs-seeder',
-    'nestjs-api-gateway',
-    'nestjs-testing',
-];
+const fs = require("fs");
+export const pages = fs.readFileSync('./.page').toString().split('\n').filter(Boolean);
