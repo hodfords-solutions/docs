@@ -1,11 +1,15 @@
+env-parser
 nestjs-eslint-config
 nestjs-prettier-config
+reactjs-codelint-config
+nestjs-oidc
+nestjs-api-gateway
+vite-config-builder
 nestjs-cls-translation
 nestjs-validation
 nestjs-base-decorator
 nestjs-transaction
 typeorm-helper
-nestjs-oidc
 nestjs-storage
 nestjs-grpc-helper
 nestjs-response
@@ -14,8 +18,4 @@ nestjs-mailer
 nestjs-exception
 nestjs-command
 nestjs-seeder
-nestjs-api-gateway
 nestjs-testing
-env-parser
-reactjs-codelint-config
-vite-config-builder
