@@ -18,3 +18,4 @@ nestjs-api-gateway
 nestjs-testing
 env-parser
 reactjs-codelint-config
+vite-config-builder
