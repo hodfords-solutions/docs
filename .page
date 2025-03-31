@@ -19,3 +19,4 @@ nestjs-exception
 nestjs-command
 nestjs-seeder
 nestjs-testing
+typeorm-migrations
