@@ -20,3 +20,4 @@ nestjs-command
 nestjs-seeder
 nestjs-testing
 typeorm-migrations
+nestjs-any-guard
