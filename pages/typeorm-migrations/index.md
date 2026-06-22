@@ -24,7 +24,7 @@ await this.create('User', (table) => {
 });
 ```
 
-It is designed for PostgreSQL but works with any database TypeORM supports (a few helpers such as `unsigned()` or `zerofill()` are driver-specific and noted as such below).
+It is designed for PostgreSQL but works with any database TypeORM supports (a few helpers such as `unsigned()` are driver-specific and noted as such below).
 
 ## Installation 🤖
 
@@ -222,8 +222,7 @@ Methods on `BaseColumn` are chainable and cover all of TypeORM's `TableColumnOpt
 | `generatedIdentity(value?)` | Identity column, `'ALWAYS'` or `'BY DEFAULT'` (Postgres 10+) |
 | `asExpression(expression, type?)` | Generated (computed) column, `'STORED'` or `'VIRTUAL'` |
 | `spatial(featureType, srid?)` | Spatial feature type and SRID |
-| `width(width)` | Display width (MySQL only) |
-| `unsigned()` / `zerofill()` | Numeric attributes (MySQL only) |
+| `unsigned()` | Numeric attribute (MySQL only) |
 | `onUpdate(value)` | `ON UPDATE` trigger (MySQL only) |
 | `foreign(table, column = 'id', onDelete = 'CASCADE', onUpdate = 'CASCADE', name?)` | Add a foreign key referencing another table |
 
