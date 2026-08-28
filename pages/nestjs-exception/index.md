@@ -19,6 +19,16 @@ To begin using it, we first install the required dependencies.
 npm install @hodfords/nestjs-exception
 ```
 
+> **This package is ESM-only.** It ships `"type": "module"` and must be loaded with `import`,
+> not `require()`. Requires Node.js `>=20.19.0` (or `>=22.12`, `>=24.15`, `>=26`).
+
+### Compatibility
+
+| `@hodfords/nestjs-exception` | NestJS |
+| ---------------------------- | ------ |
+| `12.x`                       | `12.x` |
+| `11.x`                       | `11.x` |
+
 ## Exception Classes
 
 > **Note**: These exception classes only function when used alongside the `HttpExceptionFilter` or one of its child classes (`GrpcExceptionFilter`, `KafkaExceptionFilter`, etc.). Be sure to apply the appropriate filter in your application.
