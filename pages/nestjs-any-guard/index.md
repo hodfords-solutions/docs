@@ -17,6 +17,21 @@ To begin using it, we first install the required dependencies.
 ```
 npm install @hodfords/nestjs-any-guard
 ```
+
+> **This package is ESM-only.** It ships `"type": "module"` and must be loaded with `import`
+> (`require('@hodfords/nestjs-any-guard')` is not supported).
+
+### Requirements
+
+- Node.js `>=20.19.0` (or `>=22.12`, `>=24.15`, `>=26`)
+- NestJS 12
+
+### Compatibility
+
+| `@hodfords/nestjs-any-guard` | NestJS |
+| --- | --- |
+| `12.x` | `12.x` |
+| `11.x` | `11.x` |
 ## Usage 📖
 
 ### AnyGuard Decorator
