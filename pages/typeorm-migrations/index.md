@@ -34,6 +34,12 @@ npm install @hodfords/typeorm-migrations --save
 
 `typeorm` is a peer dependency and must be installed in your project.
 
+### Requirements
+
+- This package is **ESM-only**. Use `import` syntax; `require()` is not supported.
+- Node.js `>=20.19.0` (or `>=22.12`, `>=24.15`, `>=26`).
+- TypeORM `>=1.0.0`.
+
 ## Usage
 
 Extend `BaseMigration` instead of implementing `MigrationInterface` directly. Implement `run()` (executed on `up`) and optionally `rollback()` (executed on `down`):
@@ -305,7 +311,7 @@ You also always have direct access to the `QueryRunner` passed into `run()`/`rol
 ## Testing
 
 ```bash
-npm test
+pnpm test
 ```
 
 The test suite covers `BaseTable`, `BaseColumn` and `BaseMigration` against a mocked `QueryRunner`, so it does not require a database.
