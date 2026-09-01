@@ -11,9 +11,9 @@ Env-Parser is a simple and lightweight library for parsing environment variables
 </p>
 
 ## Installation 🤖
-To begin using it, we first install the required dependencies.
+To begin using it, we first install the required dependencies. `zod` is a peer dependency, so install it alongside the package.
 ```
-npm install @hodfords/env-parser
+npm install @hodfords/env-parser zod
 ```
 
 ## Usage 🚀
